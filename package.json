@@ -1,6 +1,6 @@
 {
   "name": "kociemba",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "kociemba algorithm for Rubik's Cube",
   "main": "index.js",
   "gypfile": true,
