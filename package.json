@@ -1,0 +1,34 @@
+{
+  "name": "kociemba",
+  "version": "1.0.0",
+  "description": "kociemba algorithm for Rubik's Cube",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp-build",
+    "prebuild": "prebuildify --napi",
+    "prepack": "npm run prebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-band/kociemba.git"
+  },
+  "keywords": [
+    "kociemba",
+    "Rubik's Cube",
+    "Cube",
+    "solve"
+  ],
+  "author": "d-band",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-band/kociemba/issues"
+  },
+  "homepage": "https://github.com/d-band/kociemba#readme",
+  "dependencies": {
+    "node-gyp-build": "^4.2.3"
+  },
+  "devDependencies": {
+    "prebuildify": "^4.0.0"
+  }
+}
